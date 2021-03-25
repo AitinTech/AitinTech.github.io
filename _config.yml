@@ -3,4 +3,6 @@ theme: jekyll-theme-architect
 # Site Settings
 locale                   : "fa-IR"
 dir			                 : "rtl"
-title                    : "آیتین تک (AitinTech)"
+title                    : "AitinTech"
+description              : "Intelligent Systems"
+url                      : "https://AitinTech.ir"
