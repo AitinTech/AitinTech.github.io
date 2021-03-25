@@ -1,1 +1,6 @@
 theme: jekyll-theme-slate
+
+# Site Settings
+locale                   : "fa-IR"
+dir			                 : "rtl"
+title                    : "آیتین تک (AitinTech)"
