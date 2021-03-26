@@ -103,7 +103,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: ""
+      # url: ""
     - label: "آموزش"
       icon: "fas fa-fw fa-link"
       url: "https:/daneshjoy.ir"
@@ -125,7 +125,7 @@ footer:
   links:
     - label: "پست الکترونیک"
       icon: "fas fa-fw fa-envelope-square"
-      url: "aitintech.info@gmail.com"
+      url: "mailto:aitintech.info@gmail.com"
     - label: "آموزش"
       icon: "fas fa-fw fa-link"
       url: "https:/daneshjoy.ir"
@@ -135,7 +135,7 @@ footer:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
-    - label: "GitHub"
+    - label: "گیت‌هاب"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/aitintech"
     - label: "GitLab"
