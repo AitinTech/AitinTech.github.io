@@ -1,3 +1,0 @@
-# AitinTech Website
-
-- Under Construction ...
