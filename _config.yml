@@ -99,23 +99,23 @@ author:
   avatar           : "/assets/images/aitintech.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "فن اوری های نوین و سامانه های هوشمند آیتین"
   location         : "Iran"
-  email            : "aitintech.info@gmail"
+  email            : "aitintech.info@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:aitintech.info@gmail.com"
-    - label: "Website"
+      url: ""
+    - label: "آموزش"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https:/daneshjoy.ir"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: "GitHub"
+    - label: "گیت‌هاب"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/aitintech"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -123,6 +123,12 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "پست الکترونیک"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "aitintech.info@gmail.com"
+    - label: "آموزش"
+      icon: "fas fa-fw fa-link"
+      url: "https:/daneshjoy.ir"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
@@ -131,7 +137,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/aitintech"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
