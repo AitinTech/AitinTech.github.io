@@ -10,4 +10,4 @@
 
 Mar 26, 2021
 
-[First](https://aitintech.ir/blog/2021/first)
+[First](https://aitintech.ir/posts/2021/first)
