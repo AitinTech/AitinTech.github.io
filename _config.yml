@@ -19,15 +19,15 @@ locale                   : "fa-IR"
 dir			             : "rtl"
 title                    : "AitinTech"
 title_separator          : "-"
-subtitle                 : " " # site tagline that appears below site title in masthead
+subtitle                 : "Intelligent Systems" # site tagline that appears below site title in masthead
 name                     : "AitinTech Co."
 description              : "فن آوریهای نوین و سامانه های هوشمند آیتین"
 url                      : "https://aitintech.ir" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "aitintech/aitintech.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/aitintech.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/aitintech.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : " " # overrides the website title displayed in the masthead, use " " for no title
+logo                     : "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : "AitinTech" # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
@@ -96,7 +96,7 @@ analytics:
 # Site Author
 author:
   name             : "آیتین تک"
-  avatar           : "/assets/images/logo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/aitintech.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "فن اوری های نوین و سامانه های هوشمند آیتین"
   location         : "Iran"
   email            : "aitintech.info@gmail"
