@@ -2,12 +2,12 @@
 
 ## Links
 
-[Products](https://aitintech.ir/products)
+[Products](products)
 
-[About](https://aitintech.ir/about)
+[About](about)
 
 ## All Posts
 
 Mar 26, 2021
 
-[First](https://aitintech.ir/posts/2021/first)
+[First](posts/2021/first)
