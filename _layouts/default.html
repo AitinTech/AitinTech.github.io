@@ -25,16 +25,35 @@
           <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a>
         {% endif %}
         {% if site.github.is_user_page %}
-          <a href="{{ site.github.owner_url }}" class="button"><small>Follow me on</small> GitHub</a>
           <a href="fa" class="button"><small>Language (زبان)</small> Persian (فارسی) </a>
         {% endif %}
       </div>
     </header>
 
+    <nav id="lang-sel" >
+      <ul class="lang">
+          {% capture link1 %}{{ site.baseurl_root }}{{ page.url}}{% endcapture %}
+          {% capture link2 %}{{ site.baseurl_root }}/en{{ page.url}}{% endcapture %}
+          {% if site.lang == "fa" %}
+          <li class="masthead_menu-item visible-links">
+            <a href="{{ link1 }}" class="enabled">{% t global.persian%} </a>|<a href="{{ link2 }}"> {% t global.english%}</a>
+          </li>
+          {% elsif site.lang == "en" %}
+          <li class="masthead_menu-item lang">
+            <a href="{{ link1 }}">{% t global.persian%} </a>|<a href="{{ link2 }}" class="enabled"> {% t global.english%}</a>
+          </li>
+          {% endif %}
+      </ul>
+   </nav>
+
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
+          {% if site.lang == "fa" %}
+          <a href="https://aitintech.ir/fa/posts">وبلاگ</a> | <a href="https://aitintech.ir/fa/about">درباره</a> | <a href="https://aitintech.ir/fa/products">محصولات</a>
+          {% elsif site.lang == "en" %}
           <a href="https://aitintech.ir/posts">Posts</a> | <a href="https://aitintech.ir/about">About</a> | <a href="https://aitintech.ir/products">Products</a>
+          {% endif %}
           {{ content }}
         </section>
 
