@@ -2,19 +2,15 @@
 main:
   # - title: "نقشه سایت"
   #   url: /sitemap/
-  - title: "محصولات"
-    url: /products/
-    children:
-      - title: "Compact Control"
-        url: /products/compact-control/
-      - title: "قبض من"
-        url: /products/ghabze-man/
-        
-  - title: "مشتریان"
-    url: /customers/
-  - title: "وبلاگ"
-    url: /blog/
-  - title: "تماس با ما"
-    url: /contact/
   - title: "درباره"
     url: /about/
+  - title: "تماس با ما"
+    url: /contact/
+  - title: "وبلاگ"
+    url: /blog/
+  - title: "مشتریان"
+    url: /customers/
+  - title: "محصولات"
+    url: /products/
+  - title: "خانه"
+    url: /

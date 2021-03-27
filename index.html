@@ -24,7 +24,6 @@ feature_row1:
     url: "/products/"
     btn_class: "btn--info"
     btn_label: "صفحه محصولات"
-feature_row2:
   - image_path: /assets/images/customers_logo.png
     alt: "مشتریان"
     title: "&nbsp; مشتریان &nbsp;"
@@ -32,7 +31,7 @@ feature_row2:
     url: "/customers/"
     btn_class: "btn--info"
     btn_label: "صفحه مشتریان"
-feature_row3:
+feature_row2:
   - image_path: /assets/images/aitintech_blog.png
     alt: "وبلاگ"
     title: "&nbsp; وبلاگ &nbsp;"
@@ -43,9 +42,8 @@ feature_row3:
 ---
 
 
-{% include feature_row id="feature_row1" type="center"%}
+{% include feature_row id="feature_row1" %}
 {% include feature_row id="feature_row2" type="center" %}
-{% include feature_row id="feature_row3" type="center" %}
 
 <h2>{{ site.data.ui-text[site.locale].recent_posts | default: "Recent posts" }}</h2>
 
