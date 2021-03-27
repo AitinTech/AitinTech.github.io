@@ -57,10 +57,10 @@ search                   : true # true, false (default)
 search_full_content      : false # true, false (default)
 search_provider          : "google" # lunr (default), algolia, google
 algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
+  application_id         : MT682YYCWC # YOUR_APPLICATION_ID
+  index_name             : AitinTech # YOUR_INDEX_NAME
+  search_only_api_key    : d02855091b1468dc4becc539e8835690 # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : false # true (default), false
 google:
   search_engine_id       : 5917f13ba7cb8e443 # YOUR_SEARCH_ENGINE_ID
   instant_search         : false # false (default), true
