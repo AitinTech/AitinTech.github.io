@@ -4,6 +4,14 @@ main:
   #   url: /sitemap/
   - title: "محصولات"
     url: /products/
+    children:
+      - title: "Compact Control"
+        url: /products/compact-control/
+      - title: "قبض من"
+        url: /products/ghabze-man/
+        
+  - title: "مشتریان"
+    url: /customers/
   - title: "وبلاگ"
     url: /blog/
   - title: "تماس با ما"
