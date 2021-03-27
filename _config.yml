@@ -20,7 +20,7 @@ dir			             : "rtl"
 title                    : "AitinTech"
 title_separator          : "-"
 subtitle                 : "Intelligent Systems" # site tagline that appears below site title in masthead
-name                     : "AitinTech Co."
+name                     : "AitinTech"
 description              : "فن آوریهای نوین و سامانه های هوشمند آیتین"
 url                      : "https://aitintech.ir" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -62,7 +62,7 @@ algolia:
   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : # true (default), false
 google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+  search_engine_id       : 5917f13ba7cb8e443 # YOUR_SEARCH_ENGINE_ID
   instant_search         : true # false (default), true
 # SEO Related
 google_site_verification :
@@ -87,9 +87,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "G-K52FJY219G"
     anonymize_ip         : # true, false (default)
 
 
@@ -106,7 +106,7 @@ author:
       # url: ""
     - label: "آموزش"
       icon: "fas fa-fw fa-link"
-      url: "https:/daneshjoy.ir"
+      url: "https://daneshjoy.ir"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -128,7 +128,7 @@ footer:
       url: "mailto:aitintech.info@gmail.com"
     - label: "آموزش"
       icon: "fas fa-fw fa-link"
-      url: "https:/daneshjoy.ir"
+      url: "https://daneshjoy.ir"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
@@ -288,6 +288,7 @@ defaults:
       type: pages
     values:
       layout: single
+      classes: wide
       author_profile: true
       read_time: false
       comments: false

@@ -1,11 +1,12 @@
 ---
-permalink: /about/
-title: "درباره"
+permalink: /customers/
+title: "مشتریان"
 excerpt: "بیشتر"
 comments: on
 tags:
-  - About
-  - درباره
+  - Customers
+  - Support
+  - مشتریان
 ---
 
 -------------------------------------

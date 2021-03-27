@@ -1,11 +1,13 @@
 ---
-permalink: /about/
-title: "درباره"
+permalink: /products/
+title: "محصولات"
 excerpt: "بیشتر"
 comments: on
 tags:
-  - About
-  - درباره
+  - Products
+  - Services
+  - محصولات
+  - خدمات
 ---
 
 -------------------------------------
