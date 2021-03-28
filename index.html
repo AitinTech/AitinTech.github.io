@@ -5,7 +5,7 @@ author_profile: true
 
 header:
   overlay_color: #5e616c
-  overlay_filter: "0.3"
+  overlay_filter: "0.5"
   overlay_image: /assets/images/banner.jpg
   actions:
     - label: "محصولات"
@@ -24,6 +24,7 @@ feature_row1:
     url: "/products/"
     btn_class: "btn--info"
     btn_label: "صفحه محصولات"
+feature_row2:
   - image_path: /assets/images/customers_logo.png
     alt: "مشتریان"
     title: "&nbsp; مشتریان &nbsp;"
@@ -31,7 +32,7 @@ feature_row1:
     url: "/customers/"
     btn_class: "btn--info"
     btn_label: "صفحه مشتریان"
-feature_row2:
+feature_row3:
   - image_path: /assets/images/aitintech_blog.png
     alt: "وبلاگ"
     title: "&nbsp; وبلاگ &nbsp;"
@@ -42,8 +43,9 @@ feature_row2:
 ---
 
 
-{% include feature_row id="feature_row1" %}
+{% include feature_row id="feature_row1" type="center" %}
 {% include feature_row id="feature_row2" type="center" %}
+{% include feature_row id="feature_row3" type="center" %}
 
 <h2>{{ site.data.ui-text[site.locale].recent_posts | default: "Recent posts" }}</h2>
 
