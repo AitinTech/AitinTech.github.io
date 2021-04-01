@@ -11,10 +11,11 @@ tags:
 ---
 
 -------------------------------------
-### ایمیل
-<a href="mailto:aitintech.info@gmail.com" target="_blank" class="btn btn--default btn-lg" role="button"> **aitintech.info**@gmail.com </a>
+  
+  - ایمیل
+  <a href="mailto:aitintech.info@gmail.com" target="_blank" class="btn btn--default btn-lg" role="button"> **aitintech.info**@gmail.com </a>
 
-###  ارسال مستقیم و خصوصی پیام / دیدگاه / انتقاد / پیشنهاد / سوال / هر چیزی
+  - ارسال مستقیم و خصوصی پیام / دیدگاه / انتقاد / پیشنهاد / سوال / سفارش پروژه 
 
 <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScFAgB1FNCANLIH-6sx1zbGt6Oj9m6-sgZBhlgss73DukyMig/viewform?embedded=true" width="640" height="796" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>  -->
 
